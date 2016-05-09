@@ -31,9 +31,21 @@ def main():
 		while(x <= 10):
 			print(x, end=", ")
 			x += 1
-		print()
+		print("\n")
+		arrays()
 		
 	else:
 		print(x, "is not less than six!")
+	
+def arrays():
+	array = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+	for row in array:
+		for col in array:
+			for n in col:
+				print(n, end=" ")
+			print()
+		print()
+	print()
+	#need to figure out how to do this properly
 	
 main()
