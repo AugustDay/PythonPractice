@@ -11,7 +11,7 @@ def main():
 		for s in string:
 			print(s)
 		print()
-		
+		 
 		#printing strings using index
 		string = "world"
 		for i in range(len(string)):
