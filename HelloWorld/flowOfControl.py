@@ -40,10 +40,8 @@ def main():
 def arrays():
 	array = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 	for row in array:
-		for col in array:
-			for n in col:
-				print(n, end=" ")
-			print()
+		for col in row:
+			print(col, end=" ")
 		print()
 	print()
 	#need to figure out how to do this properly
